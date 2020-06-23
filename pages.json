@@ -1,0 +1,45 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+      
+	 {
+	       "path" : "pages/index/index",
+	       "style" : {}
+	   }
+	 
+	 , {
+	        "path" : "pages/fire/fire",
+	        "style" : {}
+	    },{
+	      "path" : "pages/bound/bound",
+	      "style" : {}
+	  },
+		{
+            "path" : "pages/hoisting/hoisting",
+            "style" : {}
+        },{
+            "path" : "pages/highsafety/highsafety",
+            "style" : {}
+        },{
+            "path" : "pages/digging/digging",
+            "style" : {}
+        },{
+            "path" : "pages/breaksafety/breaksafety",
+            "style" : {}
+        },{
+            "path" : "pages/blindplateblockage/blindplateblockage",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/electric/electric",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "hxnavbar",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+		
+	}
+}
